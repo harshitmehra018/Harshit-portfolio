@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
 
 const About = () => {
   return (
@@ -18,7 +17,7 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Harshit Mehra
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -26,8 +25,8 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Developer',
-                'App Developer',
-                'UI/UX Designer',
+                'MERN Stack Developer',
+                'Web Developer',
                 'Coder',
               ]}
               speed={100}
@@ -41,15 +40,11 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            i am a Full Stack Web Developer skilled in web designing and building scalable web applications using the MERN Stack. I love to explore new technologies and leverage them to solve real-life problems. I am passionate about coding and always eager to learn and grow in this field.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1FzOjm2pg2zVjKcjLsvJtbrmsWSlwx4Gp/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -74,8 +69,8 @@ const About = () => {
             gyroscope={true}
           >
             <img
-              src={profileImage}
-              alt="Tarun Kaushik"
+              src=""
+              alt="Harshit Mehra"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
