@@ -149,8 +149,8 @@ export const projects = [
       "Open Weather API",
       "JavaScript",
     ],
-    github: "",
-    webapp: "",
+    github: "https://github.com/harshitmehra018/Weather-API",
+    webapp: "https://weather-api-6fuy.vercel.app/",
   },
   {
     id: 2,
@@ -159,8 +159,8 @@ export const projects = [
       "Developed a responsive personal portfolio website to showcase skills, projects, and achievements. Built using modern web technologies with a clean UI/UX design, smooth navigation, and optimized performance. Integrated interactive sections such as About, Skills, Projects, and Experience to provide a professional online presence.",
     image:portfolioLogo ,
     tags: ["React","Tailwind","Bootstrap","Javascript","HTML","CSS"],
-    github: "",
-    webapp: "",
+    github: "https://github.com/harshitmehra018/Harshit-portfolio",
+    webapp: "https://harshit-portfolio-sooty.vercel.app/",
   },
   {
      id: 2,
