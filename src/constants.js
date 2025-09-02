@@ -150,7 +150,7 @@ export const projects = [
       "JavaScript",
     ],
     github: "https://github.com/harshitmehra018/Weather-API",
-    webapp: "https://weather-api-6fuy.vercel.app/",
+    webapp: "https://weather-api-azure-two.vercel.app/",
   },
   {
     id: 2,
